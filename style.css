@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-title {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo-img {
+    width: 100%;
+}
