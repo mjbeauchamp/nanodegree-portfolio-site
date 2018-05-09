@@ -1,10 +1,11 @@
 body {
     width: 100vw;
     margin: 0;
+    font-size: 16px;
 }
 
 .container {
-    margin-top: 20px;
+    margin-top: 5%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -23,31 +24,30 @@ body {
     display: flex;
     flex-direction: column;
     text-align: right;
-    margin-right: 25px;
+    margin-right: 5%;
 }
 
 .logo {
-    width: 25%;
+    width: 22%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 22px;
+    margin-left: 3%;
 }
 
 .logo-img {
     width: 100%;
-
 }
 
 .header-name {
     font-family: 'Skranji', cursive;
-    font-size: 4.6em; 
+    font-size: 1.7em; 
     margin: 0;
 }
 
 .header-title {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 1em;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -77,9 +77,9 @@ hr {
 }
 
 .photo-grid-intro {
-    font-size: 5.7em;
+    font-size: 2.3em;
     font-family: 'News Cycle', sans-serif;
-    margin: 40px 0;
+    margin: 5% 0;
 }
 
 .photo-grid-container {
@@ -98,16 +98,49 @@ hr {
 }
 
 .img-title {
-    font-size: 4.5em;
+    font-size: 2em;
     font-family: 'News Cycle', sans-serif;
     display: block;
-    margin: 20px 0 0 0;
+    margin: 0;
     padding: 0;
 }
 
 .grid-img-link {
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: "Arial", sans-serif;
     display: block;
-    margin-bottom: 100px;
+    margin: 2% 0 13% 0;
 }
+
+/* Tablet Responsive Styling
+@media screen and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+    .name-title {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        margin-right: 25px;
+    }
+    
+    .logo {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 22px;
+    }
+
+    .header-name {
+        font-family: 'Skranji', cursive;
+        font-size: 4.6em; 
+        margin: 0;
+    }
+    
+    .header-title {
+        margin: 0;
+        font-size: 2.5em;
+        font-family: 'Nunito', sans-serif;
+    }
+} */
