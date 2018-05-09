@@ -129,4 +129,45 @@ hr {
     .header-title {
         font-size: 2.2em;
     }
+
+    /* Image Grid Section */
+    .photo-grid-section {
+        width: 90%;
+    }
+    .photo-grid-intro {
+        font-size: 3.2em;
+    }
+    
+    .photo-grid-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    /* Image Card Section */
+    .grid-card {
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .grid-img {
+        width: 100%;
+    }
+    
+    .img-title {
+        font-size: 2em;
+        font-family: 'News Cycle', sans-serif;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .grid-img-link {
+        font-size: 1em;
+        font-family: "Arial", sans-serif;
+        display: block;
+        margin: 2% 0 13% 0;
+        color: gray;
+        text-decoration: none;
+    }
 }
