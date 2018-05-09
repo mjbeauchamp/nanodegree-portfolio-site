@@ -7,30 +7,39 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .name-title {
     display: flex;
     flex-direction: column;
     text-align: right;
-    margin-right: 18px;
+    margin-right: 22px;
 }
 
 .logo {
-    width: 15%;
+    width: 27%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 18px;
+    margin-left: 22px;
 }
 
 .logo-img {
-    width: 90%;
+    width: 100%;
 
 }
 
 .header-name {
-    font-family: 'Skranji', cursive; 
+    font-family: 'Skranji', cursive;
+    font-size: 4.5em; 
+    margin: 0;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 2.3em;
+    font-family: 'Nunito', sans-serif;
 }
 
 /* Intro Image Section  */
@@ -44,9 +53,18 @@ hr {
 
 .intro-img {
     width: 100%;
+    height: 10%;
 }
 
 /* Image Grid Section */
+.photo-grid-section {
+    text-align: center;
+}
+
+.photo-grid-intro {
+
+}
+
 .photo-grid-container {
     width: 100%;
     display: flex;
