@@ -2,6 +2,7 @@ body {
     width: 100vw;
 }
 
+/* Header Styling */
 .header {
     width: 100%;
     display: flex;
@@ -21,3 +22,17 @@ body {
 .logo-img {
     width: 100%;
 }
+
+/* Intro Image Section  */
+hr {
+    width: 100%;
+}
+
+.intro-img-container {
+    width: 100%;
+}
+
+.intro-img {
+    width: 100%;
+}
+
