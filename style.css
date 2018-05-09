@@ -1,5 +1,14 @@
 body {
     width: 100vw;
+    margin: 0;
+}
+
+.container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Header Styling */
@@ -14,11 +23,11 @@ body {
     display: flex;
     flex-direction: column;
     text-align: right;
-    margin-right: 22px;
+    margin-right: 25px;
 }
 
 .logo {
-    width: 27%;
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +47,7 @@ body {
 
 .header-title {
     margin: 0;
-    font-size: 2.3em;
+    font-size: 2.5em;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -61,7 +70,10 @@ hr {
 
 /* Image Grid Section */
 .photo-grid-section {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    width: 80%;
 }
 
 .photo-grid-intro {
@@ -86,7 +98,7 @@ hr {
 }
 
 .img-title {
-    font-size: 5.2em;
+    font-size: 4.5em;
     font-family: 'News Cycle', sans-serif;
     display: block;
     margin: 20px 0 0 0;
