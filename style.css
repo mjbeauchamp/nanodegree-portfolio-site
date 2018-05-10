@@ -201,6 +201,10 @@ hr {
     }
 
     /* Image Card Section */
+    .photo-grid-section {
+        width: 100%;
+    }
+
     .grid-card {
         width: 29.33%;
         margin-left: 2%;
